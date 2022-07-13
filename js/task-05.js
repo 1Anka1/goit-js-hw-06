@@ -3,7 +3,7 @@ const refs = {
     output : document.querySelector('#name-output'),
 }
 
-refs.input.addEventListener('click', onInputChange);
+refs.input.addEventListener('input', onInputChange);
 
 function onInputChange (event){
     if(refs.input.value !== ''){

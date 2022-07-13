@@ -1,4 +1,4 @@
-const widgetDiv = document.querySelector('.widget');
+const widgetDiv = document.querySelector('body');
 const nameOfColor = document.querySelector('.color');
 const bottonEl = document.querySelector('.change-color');
 
