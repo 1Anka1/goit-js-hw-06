@@ -1,4 +1,4 @@
-const widgetDiv = document.querySelector('body');
+const body = document.querySelector('body');
 const nameOfColor = document.querySelector('.color');
 const bottonEl = document.querySelector('.change-color');
 
@@ -10,6 +10,6 @@ function getRandomHexColor() {
 }
 function getChangeColor() {
   const color = getRandomHexColor();
-  widgetDiv.style.backgroundColor = color;
-  nameOfColor.textContent = widgetDiv.style.backgroundColor = color;
+  body.style.backgroundColor = color;
+  nameOfColor.textContent = body.style.backgroundColor = color;
 }
